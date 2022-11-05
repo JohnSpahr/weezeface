@@ -1,0 +1,64 @@
+{
+    "uuid": "d5e254a5-4a41-4f92-b781-ee46252fb01b",
+    "shortName": "weezeface",
+    "longName": "weezeface",
+    "companyName": "John Spahr",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "sdkVersion": "3",
+    "targetPlatforms": [
+        "aplite",
+        "basalt",
+        "chalk",
+        "diorite"
+    ],
+    "watchapp": {
+        "watchface": true
+    },
+    "appKeys": {},
+    "resources": {
+        "media": [{
+                "file": "images/icon.PNG",
+                "menuIcon": true,
+                "name": "IMAGE_MONO_ICON",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/mono_WEEZER.PNG",
+                "name": "IMAGE_MONO_WEEZER",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/mono_DISS.PNG",
+                "name": "IMAGE_MONO_DISS",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/color_WEEZER.PNG",
+                "name": "IMAGE_COLOR_WEEZER",
+                "type": "png"
+            },
+            {
+                "file": "images/color_DISS.PNG",
+                "name": "IMAGE_COLOR_DISS",
+                "type": "png"
+            },
+            {
+                "file": "images/round_WEEZER.PNG",
+                "name": "IMAGE_ROUND_WEEZER",
+                "type": "png"
+            },
+            {
+                "file": "images/round_DISS.PNG",
+                "name": "IMAGE_ROUND_DISS",
+                "type": "png"
+            },
+            {
+                "type": "font",
+                "name": "FONT_CGOTHIC_28",
+                "file": "fonts/centurygothic.ttf",
+                "compatibility": "2.7"
+            }
+        ]
+    }
+}
